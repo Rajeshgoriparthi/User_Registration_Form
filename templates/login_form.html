@@ -15,9 +15,10 @@
             <input type="text" name="username" id="username"><br><br>
             <label for="password">Password</label>
             <input type="password" name="password" id="password"><br><br>
-            <input type="submit" value="login">
-        </form>
-        <a href="{% url 'forgot_pw' %}">forgot_password</a>
+            <input type="submit" value="login" style="background-color:rgb(58, 26, 172); color:ghostWhite;">
+        </form><br>
+        <button><a href="{% url 'forgot_pw' %}" style="text-decoration: none;">forgot_password</a></button><br><br>
+        <button><a href="{% url 'change_password' %}" style="text-decoration: none;">Change_Password</a></button>
     </center>
 </body>
 </html>
